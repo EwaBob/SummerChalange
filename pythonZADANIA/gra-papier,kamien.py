@@ -1,5 +1,5 @@
 # Napisz grę kamień-papier-nożyce tak, aby korzystać z funkcji.
-
+# Write rock-paper-scissors so as to use the function
 
 import random
 

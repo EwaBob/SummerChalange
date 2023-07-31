@@ -1,3 +1,3 @@
 # SummerChalange
-HTML/CSS/PYTHON
+HTML/CSS/PYTHON/JS
 basic 

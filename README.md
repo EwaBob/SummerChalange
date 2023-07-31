@@ -1,3 +1,3 @@
-# SummerChalange
+# LERN CODE
 HTML/CSS/PYTHON/JS
 basic 

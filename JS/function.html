@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Warsztaty z JSa!</title>
+  </head>
+  <body style="background: linear-gradient(#ffffff, #000000);height: 100vh;">
+    <div
+      style="padding:10px; margin: 15px; border:1px solid grey; background-color:#ffffff"
+    >
+      Góra:
+      <input id="inputGora" name="gora" type="color" value="#ffffff" />
+      Dół:
+      <input id="inputDol" name="dol" type="color" value="#000000" />
+      <button id="ustaw">Ustaw tlo</button>
+    </div>
+  </body>
+  <script>
+    function ustawKolor() {
+        kolorGora = document.getElementById("inputGora").value;
+        kolorDol = document.getElementById("inputDol").value;
+        kolorGradient = "linear-gradient(" + kolorGora + "," + kolorDol + ")";
+        document.body.style.background = kolorGradient;
+    }
+    document.getElementById("ustaw").onclick = ustawKolor;
+  </script>
+</html>
